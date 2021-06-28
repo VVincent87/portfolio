@@ -57,6 +57,7 @@ body {
 .intro {
   max-width: 75%;
   display:flex;
+  justify-content:center;
 }
 
 .intro-container-img, .intro-container-info {
@@ -83,14 +84,18 @@ body {
 
 /* skills section styling */ 
 
-.skills-dev-subcontainer {
-  max-width: 75%;
+.skills-dev-subcontainer, .skills-info-subcontainer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.skills-info-subcontainer {
-  max-width: 75%;
-  display: flex;
+.skills-dev-item, .skills-info-item {
+  width: 40%;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
 }
 
 .skills-icon img {
@@ -106,7 +111,66 @@ body {
 }
 
 .notions-dev-subcontainer {
-  max-width: 75%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.notions-item {
+  width: 40%;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}
+
+/* projects section styling */
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-subcontainer {
+  width: 45%;
+}
+
+.project-subcontainer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+/* contact section styling */
+
+.contact-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.contact-list-item img, .cv-container img {
+  height: 2em;
+  width: 2em;
+}
+
+.contact-list-item {
+  display: flex;
+  align-items: center;
+  margin: 0.5 em;
+}
+
+.cv-subcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+/* footer section styling */
+
+.footer-text {
+  text-align: center;
+}
