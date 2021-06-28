@@ -1,0 +1,112 @@
+/* body adjustments */ 
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #161616;
+}
+
+/* app width */
+
+.app {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* header styling */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.header-title {
+  width: 100%;
+  text-align: center;
+}
+
+.header-logo {
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+  
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: white;
+}
+
+.header-list a {
+  color: white;
+  text-decoration: none;
+}
+
+/* about section styling */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  max-width: 75%;
+  display:flex;
+}
+
+.intro-container-img, .intro-container-info {
+  max-width: 50%
+}
+
+.intro-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.intro-container-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-title, .intro-job, .intro-button {
+  max-width: 75%;
+  text-align: center;
+}
+
+/* skills section styling */ 
+
+.skills-dev-subcontainer {
+  max-width: 75%;
+  display: flex;
+}
+
+.skills-info-subcontainer {
+  max-width: 75%;
+  display: flex;
+}
+
+.skills-icon img {
+  height: 2em;
+  width: 2em;
+}
+
+/* notions section styling */
+
+.notions-icon img {
+  height: 2em;
+  width: 2em;
+}
+
+.notions-dev-subcontainer {
+  max-width: 75%;
+  display: flex;
+}
+

@@ -1,79 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://kit.fontawesome.com/c1fe65e9e4.js" crossorigin="anonymous"></script>
-    <title>Victorien VINCENT</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/5127a5cb87.js" crossorigin="anonymous"></script>
+  <title>VV - Portfolio</title>
 </head>
 <body>
-  <header>
-    <div class="menu-toggle">
-      <div class="bar-half-start"></div>
-      <div class="bar"></div>
-      <div class="bar-half-end  "></div>
-    </div>
-    <nav class="top-nav">
-      <ul class="nav-list">
-        <li>
-          <a href="index.html" class="nav-link">Bienvenue</a>
-        </li>
-        <li>
-          <a href="#about" class="nav-link">A propos</a>
-        </li>
-        <li>
-          <a href="#services" class="nav-link">Services</a>
-        </li>
-        <li>
-          <a href="#portfolio" class="nav-link">Portfolio</a>
-        </li>
-        <li>
-          <a href="#experience" class="nav-link">Formations</a>
-        </li>
-        <li>
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="landing-text">
-      <h1>Victorien VINCENT</h1>
-      <H6>Développeur Web</H6>
-    </div>
-  </header>
-
-  <section class="about" id="about">
-    <div class="container">
-      <div class="profile-img">
-        <img src="img/photo.jpg" alt="photo">
-      </div>
-      <div class="about-details">
-        <div class="about-heading">
-          <h1>A propos</h1>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div class="social-media">
-        <ul class="nav-list">
-          <li>
-            <a href="https://www.linkedin.com/in/victorien-vincent-0187/" class="icon-link">
-              <i class="fab fa-linkedin"></i>
-            </a>
+  <div id="root">
+    <div class="app">
+      <header class="header">
+        <h1 class="header-title">Victorien VINCENT</h1>
+        <img class="header-logo" src="img/dailyminimal416.jpg" alt="logo by Daily Minimal">
+        <ul class="header-list">
+          <li class="header-list-item">
+            <a href="#resume">Présentation</a>
           </li>
-          <li>
-            <a href="https://github.com/VVincent87" class="icon-link">
-              <i class="fab fa-github-square"></i>
-            </a>
+          <li class="header-list-item">
+            <a href="#skills">Compétences</a>
+          </li>
+          <li class="header-list-item">
+            <a href="#projects">Projets</a>
+          </li>
+          <li class="header-list-item">
+            <a href="#contact">Contact</a>
           </li>
         </ul>
+      </header>
+      <div class="about">
+        <div class="intro">
+          <div class="intro-container-img">
+            <img class="intro-img" src="/img/photo.jpg" alt="photo de Victorien VINCENT">
+          </div>
+          <div class="intro-container-info">
+            <h1 class="intro-title">Victorien VINCENT</h1>
+            <p class="intro-job">Développeur web // Technicien en informatique</p>
+            <button class="intro-button">
+              <a href="#contact">Contactez-moi</a>
+            </button>
+          </div>
+        </div>
+        <div id="resume" class="resume">
+          <div class="resume-container">
+            <h2 class="resume-title">Présentation</h2>
+            <h3 class="resume-subtitle">L'informatique comme passion</h3>
+            <p class="description">Féru de nouvelles technologies depuis de nombreuses années, je décide en 2016 de fonder mon auto-entreprise de services informatiques aux particuliers, en parallèle d'un autre poste à temps plein. Concrétisation d'un apprentissage en autodidacte, cette expérience a été un challenge des plus agréables et formateurs! </p>
+            <p class="description">En 2020, en quête de reconversion, je m'oriente vers le développement web. Après quelques cours pris sur FreeCodeCamp, je m'inscris à la formation développeur web & mobile de l'IT Akademy. Pendant 7 mois, je découvre le métier et me trouve une affinité avec le front-end. Depuis, j'approfondis les compétences acquises et prends un réel plaisir à chercher, créer et développer. </p>
+            <p class="description">Mes 15 ans d'expérience professionnelle, notamment dans l'automobile, m'ont permis d'identifier et de travailler mes soft-skills. Ce qu'on dit de moi? Rigueur, curiosité, persévérance et sociabilité sont mes maîtres-mots.</p>
+          </div>
+        </div>
       </div>
+      <div id="skills" class="skills">
+        <div class="skills-container">
+          <h2 class="skills-title">Compétences</h2>
+          <div class="skills-dev-container">
+            <h3 class="skills-dev-title">Développement Web</h3>
+            <div class="skills-dev-subcontainer">
+              <div class="skills-dev-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/html5.svg" alt="HTML5 icon">
+                </div>
+                <h3 class="skills-item-title">HTML5 / CSS3</h3>
+                <p class="skills-item-text">Élaboration - Conception graphique - Intégration - Référencement SEO</p>
+              </div>
+              <div class="skills-dev-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/logo-wordpress.svg" alt="Wordpress icon">
+                </div>
+                <h3 class="skills-item-title">Wordpress</h3>
+                <p class="skills-item-text">Construction de sites - Utilisation de thèmes adaptés & de plugins</p>
+              </div>
+              <div class="skills-dev-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/github.svg" alt="GitHub icon">
+                </div>
+                <h3 class="skills-item-title">GitHub</h3>
+                <p class="skills-item-text">Utilisation de Git & GitHub pour le versioning du code - Utilisation de GitBash & GitKraken</p>
+              </div>
+              <div class="skills-dev-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/trello.svg" alt="Trello icon">
+                </div>
+                <h3 class="skills-item-title">Trello</h3>
+                <p class="skills-item-text">Tableau - Organisation - Idées - Tâches</p>
+              </div>
+            </div>
+          </div>
+          <div class="skills-info-container">
+            <h3 class="skills-info-title">Informatique</h3>
+            <div class="skills-info-subcontainer">
+              <div class="skills-info-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/windows-logo.svg" alt="Windows icon">
+                </div>
+                <h3 class="skills-item-title">Windows</h3>
+                <p class="skills-item-text">Utilisation avancée de l'environnement Windows</p>
+              </div>
+              <div class="skills-info-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/linux-logo.svg" alt="Linux icon">
+                </div>
+                <h3 class="skills-item-title">Linux</h3>
+                <p class="skills-item-text">Utilisation basique de diverses distributions Linux</p>
+              </div>
+              <div class="skills-info-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/office.svg" alt="Office icon">
+                </div>
+                <h3 class="skills-item-title">Office</h3>
+                <p class="skills-item-text">Utilisation basique de la suite Office</p>
+              </div>
+              <div class="skills-info-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/virtualbox.svg" alt="VirtualBox icon">
+                </div>
+                <h3 class="skills-item-title">VirtualBox VM</h3>
+                <p class="skills-item-text">Mise en oeuvre de VM avec script - Utilisation basique de VM</p>
+              </div>
+              <div class="skills-info-item">
+                <div class="skills-icon">
+                  <img src="/img/icons/motherboard.svg" alt="Hardware icon">
+                </div>
+                <h3 class="skills-item-title">Hardware Informatique</h3>
+                <p class="skills-item-text">Conception de machine à la carte - Maintenance matériel - Conseil Client - Notions de réseaux</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="notions-container">
+          <h2 class="notions-title">Notions</h2>
+          <div class="notions-dev-container">
+            <div class="notions-dev-subcontainer">
+              <div class="notions-item">
+                <div class="notions-icon">
+                  <img src="/img/icons/network.svg" alt="AWS icon">
+                </div>
+                <h3 class="notions-item-title">AWS</h3>
+                <p class="notions-item-text">Utilisation basique des fonctions Cloud AWS</p>
+              </div>
+              <div class="notions-item">
+                <div class="notions-icon">
+                  <img src="/img/icons/php.svg" alt="PHP icon">
+                </div>
+                <h3 class="notions-item-title">PHP</h3>
+                <p class="notions-item-text">Notions de PHP - Utilisation du framework Laravel</p>
+              </div>
+              <div class="notions-item">
+                <div class="notions-icon">
+                  <img src="/img/icons/javascript.svg" alt="JavaScript icon">
+                </div>
+                <h3 class="notions-item-title">JavaScript</h3>
+                <p class="notions-item-text">Notions de JavaScript et POO</p>
+              </div>
+              <div class="notions-item">
+                <div class="notions-icon">
+                  <img src="/img/icons/mysql.svg" alt="MySQL icon">
+                </div>
+                <h3 class="notions-item-title">MySQL</h3>
+                <p class="notions-item-text">Notions de gestion de base de données et requêtes</p>
+              </div>
+              <div class="notions-item">
+                <div class="notions-icon">
+                  <img src="/img/icons/adobe.svg" alt="Adobe icon">
+                </div>
+                <h3 class="notions-item-title">Création graphique / Maquettage </h3>
+                <p class="notions-item-text">Utilisation de la suite Adobe - Canva - Justinmind</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="projects" class="projects">
+        <h2 class="project-title">Mes Projets</h2>
+        <div class="project-container">
+          <a href="http://latavola.n2m-solution.com/" class="project-item" target="_blank" rel="noopener noreferrer">
+            <img src="img/latavola.jpg" alt="accueil latavola">
+          </a>
+          <div class="project-text">Latavola - site Wordpress</div>
+        </div>
+        <div class="project-container">
+          <a href="https://lesetoilesdemel.fr/" class="project-item" target="_blank" rel="noopener noreferrer">
+            <img src="img/etoilesdemel.jpg" alt="accueil etoiles de mel">
+          </a>
+          <div class="project-text">Etoiles de Mel - site Wordpress</div>
+        </div>
+      </div>
+      <div id="contact" class="contact">
+        <div class="contact-container">
+          <h2 class="contact-title">Contact</h2>
+          <p class="contact-subtitle">Retrouvez moi sur les réseaux:</p>
+          <ul class="contact-list">
+            <li class="contact-list-item">
+              <a class="contact-list-item-link" href="https://www.linkedin.com/in/victorien-vincent-0187/">
+                <span class="contact-list-item-link-span">LinkedIn</span>
+              </a>
+              <img src="img/icons/linkedin.svg" alt="logo LinkedIn">
+            </li>
+            <li class="contact-list-item">
+              <a class="contact-list-item-link" href="https://github.com/VVincent87">
+                <span class="contact-list-item-link-span">Github</span>
+              </a>
+              <img src="img/icons/github.svg" alt="logo GitHub">
+            </li>
+            <li class="contact-list-item">
+              <a class="contact-list-item-link" href="mailto:victorien0187@gmail.com">
+                <span class="contact-list-item-link-span">Email</span>
+              </a>
+              <img src="img/icons/mail.svg" alt="logo mail">
+            </li>
+          </ul>
+        </div>
+        <div class="cv-container">
+          <p class="cv-title">Téléchargez mon CV:</p>
+          <a href="docs/CV.pdf" class="CV-item" target="_blank" rel="noopener noreferrer">
+            <span class="cv-item-link-span">CV</span>
+          </a>
+          <img src="img/icons/rechercher.svg" alt="logo CV">
+        </div>
+      </div>
+      <footer>
+        <p class="footer-text">© 2021 Victorien VINCENT</p>
+      </footer>
     </div>
-  </section>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </div>
 </body>
 </html>
