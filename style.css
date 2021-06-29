@@ -69,7 +69,7 @@ ul{
 /* about section styling */
 
 .about {
-  background: linear-gradient(rgba(0,0,0,00), rgba(0,0,0,00)),
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
     url('/img/yellow-gray.jpg');
   background-size: cover;
   position: relative;
@@ -78,8 +78,6 @@ ul{
   align-items: center;
   padding: 2rem;
   padding-top: 4rem;
-  /*background-image: url(../img/yellow-gray.jpg); 
-  background-size: cover; */
 }
 
 .intro {
@@ -204,14 +202,21 @@ ul{
   padding: 2rem;
 }
 
+.project-title, .projects-subtitle {
+  padding: 1rem
+}
+
 .project-container {
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  max-width: 80%;
 }
 
 .project-subcontainer {
   width: 45%;
+  padding: 1rem;
 }
 
 .project-subcontainer img {
@@ -224,10 +229,18 @@ ul{
   text-align: center;
 }
 
+.projects-subtitle {
+  text-align: center;
+}
+
 /* contact section styling */
 
 .contact-container {
-  padding: 2rem
+  padding: 2rem;
+  background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),
+    url('/img/yellow-gray-reversed.jpg');
+  background-size: cover;
+
 }
 .contact-list {
   display: flex;
