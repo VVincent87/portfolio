@@ -153,6 +153,7 @@ ul{
   margin: 1rem;
   padding: 1rem;
   border: 1px solid #9798a0;
+  background-color: #2a2a2a;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 1px #ffc933;
 }
@@ -250,6 +251,8 @@ ul{
   padding: 1rem;
 }
 
+
+
 .contact-list-item img, .cv-container img {
   height: 2em;
   width: 2em;
@@ -259,6 +262,11 @@ ul{
 .contact-list-item {
   display: flex;
   align-items: center;
+}
+
+.contact-list-item a, .cv-container a{
+  color: #161616;
+  font-weight: bold;
 }
 
 .cv-subcontainer {
@@ -272,7 +280,8 @@ ul{
 /* footer section styling */
 
 .footer {
-  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer-text {
