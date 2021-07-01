@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">  
@@ -177,25 +176,25 @@
       <div id="projects" class="projects">
         <h2 class="project-title">Mes Projets et contributions</h2>
         <div class="project-container">
-          <div class="project-subcontainer">
+          <div class="project-subcontainer" data-tilt data-tilt-scale="1.1">
             <a href="http://latavola.n2m-solution.com/" class="project-item" target="_blank" rel="noopener noreferrer">
               <img src="img/latavola.jpg" alt="accueil latavola">
             </a>
-            <div class="project-text">Latavola - site Wordpress</div>
+            <div class="project-text">Latavola - site Wordpress - projet de stage (© N2M Solution)</div>
           </div>
-          <div class="project-subcontainer">
+          <div class="project-subcontainer" data-tilt data-tilt-scale="1.1">
             <a href="https://lesetoilesdemel.fr/" class="project-item" target="_blank" rel="noopener noreferrer">
               <img src="img/etoilesdemel.jpg" alt="accueil etoiles de mel">
             </a>
-            <div class="project-text">Etoiles de Mel - site Wordpress</div>
+            <div class="project-text">Etoiles de Mel - site Wordpress - projet de stage (© N2M Solution)</div>
           </div>
-          <div class="project-subcontainer">
+          <div class="project-subcontainer" data-tilt data-tilt-scale="1.1">
             <a href="https://mattetmoi.fr/" class="project-item" target="_blank" rel="noopener noreferrer">
               <img src="img/Matt&Moi.jpg" alt="accueil Matt et Moi">
             </a>
-            <div class="project-text">Matt & Moi - site Wordpress</div>
+            <div class="project-text">Matt & Moi - site Wordpress - projet de stage (© N2M Solution)</div>
           </div>
-          <div class="project-subcontainer">
+          <div class="project-subcontainer" data-tilt data-tilt-scale="1.1">
             <a href="https://imageshack.com/a/m6tw7/1" class="project-item" target="_blank" rel="noopener noreferrer">
               <img src="img/hardware.jpg" alt="accueil Matt et Moi">
             </a>
@@ -248,9 +247,12 @@
       </footer>
     </div>
   </div>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".skills-dev-item, .skills-info-item, .notions-item"), {
+      max: 25,
+      speed: 400
+    });
   </script>
 </body>
 </html>

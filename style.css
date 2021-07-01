@@ -198,6 +198,15 @@ ul{
   -webkit-transition-delay: all 0.5s ease;
 }
 
+.skills-dev-item, .skills-info-item, .notions-item {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
+.skills-icon, .skills-item-title, .skills-item-text, .notions-icon, .notions-item-title, .notions-item-text {
+  transform: translateZ(25px);
+}
+
 .skills-dev-item:hover, .skills-info-item:hover {
   box-shadow: 0px 0px 10px 1px #ffffff;
 }
