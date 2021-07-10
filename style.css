@@ -383,6 +383,10 @@ ul {
   margin: auto;
 }
 
+.contact-title {
+  color: #161616;
+}
+
 .contact-subcontainer {
   width: 90%;
   margin: auto;

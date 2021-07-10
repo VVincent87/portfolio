@@ -1,8 +1,13 @@
+$yellowcolor: #ffc933;
+$darkcolor: #161616;
+$midgraycolor: #9798a0;
+$lightgraycolor: #d2d7da;
+
 body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background-color: #161616;
+	background-color: $darkcolor;
 	font-family: 'Source Code Pro', monospace;
 }
 h1 {
@@ -10,7 +15,7 @@ h1 {
 }
 h2 {
 	font-family: 'Exo', sans-serif;
-	color: #ffc933;
+	color: $yellowcolor;
 	text-shadow: 1px 1px 2px black;
 }
 a {
@@ -18,7 +23,7 @@ a {
 	color: white;
 	&:hover {
 		text-decoration: underline;
-		color: #ffc933;
+		color: $yellowcolor;
 	}
 }
 ul {
@@ -71,14 +76,14 @@ ul {
 	height: 40px;
 	background-color: #f8f8f8;
 	svg {
-		fill: #161616;
+		fill: $darkcolor;
 		width: 12px;
 		height: 12px;
 	}
 	&:hover {
 		background-color: #6e7479;
 		svg {
-			fill: #ffc933;
+			fill: $yellowcolor;
 		}
 	}
 }
@@ -139,7 +144,7 @@ ul {
 	padding-bottom: 2rem;
 }
 .intro-title {
-	color: #161616;
+	color: $darkcolor;
 	max-width: 75%;
 	text-align: center;
 }
@@ -163,10 +168,10 @@ ul {
 	margin: auto;
 }
 .resume-title {
-	color: #161616;
+	color: $darkcolor;
 }
 .resume-subtitle {
-	color: #9798a0;
+	color: $midgraycolor;
 }
 .skills {
 	padding-top: 2rem;
@@ -198,10 +203,10 @@ ul {
 	padding-bottom: 2rem;
 }
 .skills-dev-title {
-	color: #9798a0;
+	color: $midgraycolor;
 }
 .skills-info-title {
-	color: #9798a0;
+	color: $midgraycolor;
 }
 .skills-dev-item {
 	width: 40%;
@@ -210,7 +215,7 @@ ul {
 	border: 1px solid #2a2a2a;
 	background-color: #2a2a2a;
 	border-radius: 5px;
-	box-shadow: 0px 0px 10px 1px #ffc933;
+	box-shadow: 0px 0px 10px 1px $yellowcolor;
 	transition: all 0.5s ease;
 	-webkit-transition-delay: all 0.5s ease;
 	transform-style: preserve-3d;
@@ -226,7 +231,7 @@ ul {
 	border: 1px solid #2a2a2a;
 	background-color: #2a2a2a;
 	border-radius: 5px;
-	box-shadow: 0px 0px 10px 1px #ffc933;
+	box-shadow: 0px 0px 10px 1px $yellowcolor;
 	transition: all 0.5s ease;
 	-webkit-transition-delay: all 0.5s ease;
 	transform-style: preserve-3d;
@@ -241,14 +246,14 @@ ul {
 	width: 40%;
 	margin: 1rem;
 	padding: 1rem;
-	background-color: #d2d7da;
-	border: 1px solid #161616;
+	background-color: $lightgraycolor;
+	border: 1px solid $darkcolor;
 	border-radius: 5px;
-	box-shadow: 0px 0px 10px 1px #ffc933;
+	box-shadow: 0px 0px 10px 1px $yellowcolor;
 	transition: all 0.5s ease;
 	-webkit-transition-delay: all 0.5s ease;
 	&:hover {
-		box-shadow: 0px 0px 10px 1px #161616;
+		box-shadow: 0px 0px 10px 1px $darkcolor;
 	}
 }
 .skills-icon {
@@ -280,7 +285,7 @@ ul {
 .notions-container {
 	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url('img/concrete.jpg');
 	background-size: cover;
-	color: #161616;
+	color: $darkcolor;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
@@ -335,6 +340,9 @@ ul {
 	width: 90%;
 	margin: auto;
 }
+.contact-title {
+	color: $darkcolor;
+}
 .contact-subcontainer {
 	width: 90%;
 	margin: auto;
@@ -348,7 +356,7 @@ ul {
 		margin: 0.5rem;
 	}
 	a {
-		color: #161616;
+		color: $darkcolor;
 		font-weight: bold;
 	}
 }
@@ -369,20 +377,20 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #d2d7da;
-	border: 1px solid #161616;
+	background-color: $lightgraycolor;
+	border: 1px solid $darkcolor;
 	border-radius: 5px;
-	box-shadow: 0px 0px 10px 1px #161616;
+	box-shadow: 0px 0px 10px 1px $darkcolor;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	&:hover {
-		border: 1px solid #d2d7da;
+		border: 1px solid $lightgraycolor;
 		box-shadow: 0px 0px 10px 1px #ffffff;
 		-webkit-transform: scale(1.2);
 		transform: scale(1.2);
 	}
 	a {
-		color: #161616;
+		color: $darkcolor;
 		font-weight: bold;
 	}
 }
@@ -391,14 +399,14 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #d2d7da;
-	border: 1px solid #161616;
+	background-color: $lightgraycolor;
+	border: 1px solid $darkcolor;
 	border-radius: 5px;
-	box-shadow: 0px 0px 10px 1px #161616;
+	box-shadow: 0px 0px 10px 1px $darkcolor;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	&:hover {
-		border: 1px solid #d2d7da;
+		border: 1px solid $lightgraycolor;
 		box-shadow: 0px 0px 10px 1px #ffffff;
 		-webkit-transform: scale(1.2);
 		transform: scale(1.2);
