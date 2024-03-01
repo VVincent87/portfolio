@@ -302,20 +302,20 @@ ul {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
-.projects {
+.certifications {
 	width: 90%;
 	margin: auto;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
-.project-container {
+.certification-container {
 	max-width: 90%;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.project-subcontainer {
+.certification-subcontainer {
 	width: 40%;
 	padding: 2rem;
 	img {
@@ -324,10 +324,10 @@ ul {
 		border-radius: 3px;
 	}
 }
-.project-text {
+.certification-text {
 	text-align: center;
 }
-.projects-subtitle {
+.certifications-subtitle {
 	text-align: center;
 }
 .contact {
@@ -479,10 +479,10 @@ ul {
 	.notions-item {
 		width: 100%;
 	}
-	.project-container {
+	.certification-container {
 		width: 100%;
 	}
-	.project-subcontainer {
+	.certification-subcontainer {
 		width: 90%;
 		padding: 1rem;
 	}
